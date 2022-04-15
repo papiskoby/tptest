@@ -1,3 +1,4 @@
+
 FROM ubuntu:20.04
 
 RUN apt-get update
@@ -14,4 +15,6 @@ WORKDIR /ops
 
 COPY . .
 
-CMD[ 'python3', 'main.py' ]
+CMD [ "python3", "main.py" ]
+
+
